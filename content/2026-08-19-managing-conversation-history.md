@@ -3,7 +3,6 @@ Date: 2026-08-19
 Category: GenAI
 Tags: GenAI, LLM, LangChain, Python, Memory, Token Management, Chatbot
 Slug: managing-conversation-history-tokens
-Status: draft
 
 LLMs have no memory between calls. Every time you hit the API, the model starts fresh. To build a chatbot that remembers what was said three messages ago, you have to manually pass that history back in on every request. The problem: each message adds tokens, and token budgets are finite. A naive implementation that keeps the full conversation will eventually hit the context limit — or cost you more than it should.
 

@@ -3,7 +3,6 @@ Date: 2026-08-19
 Category: GenAI
 Tags: GenAI, LangChain, Vector Store, Chroma, FAISS, Pinecone, Embeddings
 Slug: intro-to-vector-stores-langchain
-Status: draft
 
 A vector store is a database that finds things by meaning, not exact match. You convert text into a numerical vector (an embedding), store it, and later search for semantically similar vectors. That's the retrieval half of RAG. Which store you pick depends on scale, whether you want persistence, and whether you're staying local or going cloud.
 

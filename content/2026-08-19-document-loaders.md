@@ -3,7 +3,6 @@ Date: 2026-08-19
 Category: GenAI
 Tags: GenAI, LangChain, Python, Document Loaders, PDF, CSV, Web Scraping
 Slug: document-loaders-langchain
-Status: draft
 
 Before any LangChain pipeline does anything useful, it needs data. Document loaders are how that data gets in — they fetch content from a source, parse it, and return a list of `Document` objects with `.page_content` and `.metadata`. The rest of the pipeline (splitting, embedding, retrieval) doesn't care where the content came from. That's the point.
 

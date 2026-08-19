@@ -3,7 +3,6 @@ Date: 2026-08-19
 Category: GenAI
 Tags: GenAI, LLM, LangChain, Python, Web Scraping, NLP
 Slug: web-scraping-summarization-langchain
-Status: draft
 
 You don't always need a fancy dataset. Sometimes the data you need is already live on the web — you just have to go get it and make sense of it. That's exactly what this pipeline does: scrape a URL, chunk the content, and summarize it using an LLM, all wired together with LangChain.
 

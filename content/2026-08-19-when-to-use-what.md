@@ -3,7 +3,6 @@ Date: 2026-08-19
 Category: GenAI
 Tags: GenAI, LLM, LangChain, LlamaIndex, API, Python, Architecture
 Slug: langchain-vs-llamaindex-vs-raw-api
-Status: draft
 
 Three ways to build with LLMs. Each makes different tradeoffs, and picking the wrong one early costs you time when the project grows. This isn't a ranking — it's a map of when each tool actually fits.
 

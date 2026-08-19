@@ -3,8 +3,7 @@ Date: 2026-08-19
 Category: GenAI
 Tags: GenAI, LLM, RAG, LangChain, Python, Vector Store
 Slug: building-your-first-rag-app
-Status: draft
-
+    
 LLMs are trained on static data. Ask one about your internal docs, last week's meeting notes, or a product spec — it has no idea. RAG solves this by fetching relevant content at query time and injecting it into the prompt. The model still does the reasoning; you just give it the right context first.
 
 ## How RAG works
