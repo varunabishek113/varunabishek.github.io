@@ -1,8 +1,8 @@
-# rajacsp.github.io
+# varunabishek.github.io
 
 Personal blog built with [Pelican](https://getpelican.com/) and deployed to GitHub Pages via GitHub Actions.
 
-🔗 **Live site:** [https://rajacsp.github.io](https://rajacsp.github.io)
+🔗 **Live site:** [https://varunabishek113.github.io/varunabishek.github.io/](https://varunabishek113.github.io/varunabishek.github.io/)
 
 ## Setup
 
@@ -40,6 +40,8 @@ theme/            # Custom Pelican theme (Flex-based)
 pelicanconf.py    # Development config
 publishconf.py    # Production config
 ```
+
+Metadata (`Title:`, `Date:`, etc.) must be the first thing in a post — no blank lines before it. The deploy workflow normalizes this automatically, but keeping it clean locally avoids surprises.
 
 
 ## Screenshots

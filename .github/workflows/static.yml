@@ -31,6 +31,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r requirements.txt
 
+      - name: Normalize article metadata
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+
+          for path in Path("content").rglob("*.md"):
+              text = path.read_text(encoding="utf-8")
+              stripped = text.lstrip("\n")
+              if stripped != text:
+                  path.write_text(stripped, encoding="utf-8")
+          PY
+
       - name: Build with Pelican
         run: make publish
 
